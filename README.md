@@ -6,8 +6,8 @@
  3. Remove the other projects from Solution.
  4. Switch to'Release'
  5. Add: "CONFIG_NO_STDOUT_DEBUG;CONFIG_CRYPTO_INTERNAL;" in
-   Project property : Configuration Properties>C/C++>Preprocessor : Preprocessor Definitions
- 
- 6. First Build (CTRL+SHIFT+b)
- 7. Patch for errors(2 places): "(args...)" => "(args,...)" 
- 8. Build: wpa_supplicant-2.5/wpa_supplicant/vs2005/Release/wpa_passphrase.exe
+    Project property : Configuration Properties>C/C++>Preprocessor : Preprocessor Definitions
+ 6. Project property : Configuration Properties>C/C++>Code Generation: Runtime Library => "Multi threaded(/MT)"
+ 7. First Build (CTRL+SHIFT+b)
+ 8. Patch for errors(2 places): "(args...)" => "(args,...)" 
+ 9. Build: wpa_supplicant-2.5/wpa_supplicant/vs2005/Release/wpa_passphrase.exe
